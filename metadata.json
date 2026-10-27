@@ -1,0 +1,6 @@
+{
+  "name": "RupeeWise",
+  "description": "RupeeWise - Personal Finance & Wealth Management System. Track income, expenses, account balances, budgets, recurring bills, and double-entry ledger with seamless editing and auditing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

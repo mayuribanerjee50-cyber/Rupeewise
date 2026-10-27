@@ -1,0 +1,224 @@
+{
+  "profile": {
+    "fullName": "",
+    "email": "user@rupeewise.app",
+    "monthlyIncomeTarget": 35000,
+    "initialSavingsBalance": 20000,
+    "monthlySavingsGoal": 10000,
+    "budgetingMethod": "50/30/20 Rule",
+    "financialYearStart": "April",
+    "monthlyExpenseBudget": 22000,
+    "shortTermGoal": "Build emergency reserve & tech upgrade",
+    "longTermGoal": "Higher education fund & mutual funds investment"
+  },
+  "accounts": [
+    {
+      "id": "acc-sbi-savings",
+      "name": "SBI Savings Account",
+      "type": "savings",
+      "balance": 42500,
+      "openingBalance": 35000,
+      "currency": "INR",
+      "institution": "State Bank of India",
+      "accountNumberMask": "•••• 4892",
+      "color": "#10B981"
+    },
+    {
+      "id": "acc-hdfc-current",
+      "name": "HDFC Digital Account",
+      "type": "checking",
+      "balance": 18400,
+      "openingBalance": 12000,
+      "currency": "INR",
+      "institution": "HDFC Bank",
+      "accountNumberMask": "•••• 7104",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "acc-cash-wallet",
+      "name": "Cash Wallet",
+      "type": "cash",
+      "balance": 4500,
+      "openingBalance": 3000,
+      "currency": "INR",
+      "institution": "Physical Cash",
+      "accountNumberMask": "Cash in Hand",
+      "color": "#F59E0B"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-101",
+      "date": "2026-10-21",
+      "amount": 9000,
+      "type": "income",
+      "category": "Tuition Income",
+      "accountId": "acc-sbi-savings",
+      "payee": "College Scholarship & Tuition Credit",
+      "note": "Direct bank transfer credited",
+      "paymentMethod": "Net Banking",
+      "cleared": true
+    },
+    {
+      "id": "tx-102",
+      "date": "2026-10-19",
+      "amount": 2500,
+      "type": "income",
+      "category": "Tutoring Income",
+      "accountId": "acc-sbi-savings",
+      "payee": "Weekend Coding Tutoring Batch",
+      "note": "Received via UPI",
+      "paymentMethod": "UPI",
+      "cleared": true
+    },
+    {
+      "id": "tx-103",
+      "date": "2026-10-17",
+      "amount": 1200,
+      "type": "income",
+      "category": "Occasional Extra Income",
+      "accountId": "acc-hdfc-current",
+      "payee": "Freelance Bug Fix Bounty",
+      "note": "Web application troubleshooting",
+      "paymentMethod": "UPI",
+      "cleared": true
+    },
+    {
+      "id": "tx-104",
+      "date": "2026-10-22",
+      "amount": 1500,
+      "type": "expense",
+      "category": "Food and groceries",
+      "accountId": "acc-hdfc-current",
+      "payee": "Nature Fresh Supermarket",
+      "note": "Weekly essentials and fruits",
+      "paymentMethod": "Debit Card",
+      "cleared": true
+    },
+    {
+      "id": "tx-105",
+      "date": "2026-10-20",
+      "amount": 800,
+      "type": "expense",
+      "category": "Transportation",
+      "accountId": "acc-cash-wallet",
+      "payee": "Metro Smart Card Recharge & Auto",
+      "note": "Campus commute",
+      "paymentMethod": "UPI",
+      "cleared": true
+    },
+    {
+      "id": "tx-106",
+      "date": "2026-10-18",
+      "amount": 1000,
+      "type": "expense",
+      "category": "Education",
+      "accountId": "acc-hdfc-current",
+      "payee": "Technical Books & Lab Supplies",
+      "note": "Data structures & Algorithms reference book",
+      "paymentMethod": "UPI",
+      "cleared": true
+    },
+    {
+      "id": "tx-107",
+      "date": "2026-10-16",
+      "amount": 600,
+      "type": "expense",
+      "category": "Entertainment",
+      "accountId": "acc-cash-wallet",
+      "payee": "PVR Cinemas & Snacks",
+      "note": "Weekend movie with batchmates",
+      "paymentMethod": "Cash",
+      "cleared": true
+    },
+    {
+      "id": "tx-108",
+      "date": "2026-10-15",
+      "amount": 2000,
+      "type": "transfer",
+      "category": "Transfer",
+      "accountId": "acc-sbi-savings",
+      "targetAccountId": "acc-cash-wallet",
+      "payee": "ATM Cash Withdrawal",
+      "note": "Transfer ₹2,000 from SBI Savings to Cash Wallet",
+      "paymentMethod": "ATM Withdrawal",
+      "cleared": true
+    }
+  ],
+  "budgets": [
+    { "id": "b-groceries", "category": "Food and groceries", "monthlyLimit": 6000, "color": "#10B981" },
+    { "id": "b-transport", "category": "Transportation", "monthlyLimit": 2500, "color": "#3B82F6" },
+    { "id": "b-education", "category": "Education", "monthlyLimit": 3000, "color": "#8B5CF6" },
+    { "id": "b-housing", "category": "Housing and utilities", "monthlyLimit": 5000, "color": "#EC4899" },
+    { "id": "b-entertainment", "category": "Entertainment", "monthlyLimit": 2000, "color": "#F59E0B" },
+    { "id": "b-subscriptions", "category": "Subscriptions", "monthlyLimit": 1200, "color": "#6366F1" },
+    { "id": "b-misc", "category": "Miscellaneous", "monthlyLimit": 2000, "color": "#64748B" }
+  ],
+  "goals": [
+    {
+      "id": "g-emergency",
+      "name": "Emergency Fund (3 Months)",
+      "targetAmount": 50000,
+      "currentAmount": 32000,
+      "deadline": "2026-12-31",
+      "category": "Emergency Reserve",
+      "color": "#10B981",
+      "priority": "HIGH",
+      "notes": "Liquid reserves for unexpected academic or medical expenses."
+    },
+    {
+      "id": "g-laptop",
+      "name": "High-Performance Coding Laptop",
+      "targetAmount": 85000,
+      "currentAmount": 48000,
+      "deadline": "2027-03-31",
+      "category": "Technology",
+      "color": "#6366F1",
+      "priority": "MEDIUM",
+      "notes": "For advanced software development, containerization, and AI modeling."
+    }
+  ],
+  "recurring": [
+    {
+      "id": "rec-tuition-in",
+      "name": "Monthly Tuition Stipend / Income",
+      "type": "income",
+      "amount": 9000,
+      "frequency": "monthly",
+      "dueDay": 5,
+      "category": "Tuition Income",
+      "accountId": "acc-sbi-savings",
+      "autoPay": false,
+      "active": true
+    },
+    {
+      "id": "rec-tutoring-in",
+      "name": "Additional Tutoring Classes",
+      "type": "income",
+      "amount": 2500,
+      "frequency": "monthly",
+      "dueDay": 15,
+      "category": "Tutoring Income",
+      "accountId": "acc-sbi-savings",
+      "autoPay": false,
+      "active": true
+    },
+    {
+      "id": "rec-broadband",
+      "name": "Airtel Fiber Broadband",
+      "type": "expense",
+      "amount": 999,
+      "frequency": "monthly",
+      "dueDay": 10,
+      "category": "Housing and utilities",
+      "accountId": "acc-hdfc-current",
+      "autoPay": true,
+      "active": true
+    }
+  ],
+  "metadata": {
+    "systemName": "RupeeWise — Personal Finance & Management System API Engine",
+    "version": "1.0.0-PROD",
+    "lastUpdated": "2026-10-23T00:28:00.000Z"
+  }
+}
